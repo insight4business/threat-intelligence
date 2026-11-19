@@ -5,7 +5,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SKIP_DIRS = {".git", "node_modules", ".terraform"}
 TEXT_EXT = {".md", ".txt", ".csv", ".json", ".yml", ".yaml", ".tf", ".kql", ".spl", ".py", ".ps1", ".sh", ".toml", ".tfvars", ".hcl", ".xml", ""}
 DOC_IPS = ("192.0.2.", "198.51.100.", "203.0.113.", "10.0.0.", "127.0.0.", "0.0.0.0")
-OK_DOMAINS = {"example.com", "example.org", "contoso.com", "github.com", "creativecommons.org", "mitre.org", "nist.gov", "attack.mitre.org", "learn.microsoft.com", "docs.splunk.com", "terraform.io", "hashicorp.com", "owasp.org", "cisa.gov", "first.org", "iso.org", "json-schema.org", "elastic.co", "apache.org", "microsoft.com", "microsoftonline.com", "windows.net", "azure.com", "azure.net", "powershellgallery.com", "github.io", "sharepoint.com", "office.com", "office365.com", "windows.com", "visualstudio.com", "dev.azure.com", "aka.ms", "chocolatey.org"}
+OK_DOMAINS = {"example.com", "example.org", "contoso.com", "github.com", "creativecommons.org", "mitre.org", "nist.gov", "attack.mitre.org", "learn.microsoft.com", "docs.splunk.com", "terraform.io", "hashicorp.com", "owasp.org", "cisa.gov", "first.org", "iso.org", "json-schema.org", "unlicense.org", "elastic.co", "apache.org", "microsoft.com", "microsoftonline.com", "windows.net", "azure.com", "azure.net", "powershellgallery.com", "github.io", "sharepoint.com", "office.com", "office365.com", "windows.com", "visualstudio.com", "dev.azure.com", "aka.ms", "chocolatey.org"}
 PATTERNS = {
     "ipv4": re.compile(r"\b(?:\d{1,3}\.){3}\d{1,3}\b"),
     "email": re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
