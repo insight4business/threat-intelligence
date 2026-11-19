@@ -1,0 +1,7 @@
+tools/denylist.local.txt
+.DS_Store
+*.kdbx
+*.tfstate*
+.terraform/
+*.tfvars
+.env
